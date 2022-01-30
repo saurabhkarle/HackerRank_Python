@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    arr1=list(arr)
+    arr1.sort(reverse = True)
+    a = max(arr1)
+    for i in arr1:
+        if a > i:
+            print(i)
+            break;
+    
+            
+        
+            
